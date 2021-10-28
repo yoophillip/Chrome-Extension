@@ -1,14 +1,11 @@
 {
   "manifest_version": 3,
   "name": "CoolCursors",
-  "description": "Customize your boring cursor to something a lit!",
+  "description": "Customize your boring cursor to something lit!",
   "version": "1.0",
   "action": {
-      "default_icon": "OUR PIC",
+      "default_icon": "cursor.png",
       "default_popup": "popup.html"
-  },
-
-  "permissions": [
-     
-  ]
+  }
 }
+

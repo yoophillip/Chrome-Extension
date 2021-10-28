@@ -1,0 +1,56 @@
+
+body {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 33% 33% 33%;
+    margin: 10px
+    cursor: url(..images/pokeball.png), auto;
+}
+h1 {
+    font-family: 'Architects Daughter', cursive;
+    grid-row: 1;
+    grid-column: span;
+    color: #00BFFF;
+    font-size: 35px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+
+
+img {
+    height: 60px;
+    width: 60px;
+}
+
+.row2-col1{
+    grid-column: 1;
+    grid-row: 2;
+    margin-left: 10px
+    
+}
+
+.row2-col2{
+    grid-column: 2;
+    grid-row: 2;
+}
+.row2-col3{
+    grid-column: 3;
+    grid-row: 2;
+}
+
+.row3-col1{
+    grid-column: 1;
+    grid-row: 3;
+    margin-left: 10px
+}
+
+.row3-col2{
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.row3-col3{
+    grid-column: 3;
+    grid-row: 3;
+}

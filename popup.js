@@ -1,14 +1,5 @@
-{
-  "manifest_version": 3,
-  "name": "FILL",
-  "description": "FILL",
-  "version": "1.0",
-  "action": {
-      "default_icon": "OUR PIC",
-      "default_popup": "popup.html"
-  },
+const cursor = document.querySelector('.cursor');
 
-  "permissions": [
-     
-  ]
-}
+document.addEventListener('mousemove', el => {
+  console.log(cursor)
+})
